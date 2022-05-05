@@ -30,4 +30,11 @@ class Enemy {
 
         return enemyString;
     }
+
+    static TYPE = {
+        fire: 'fire',
+        rock: 'rock',
+        air: 'air',
+        water: 'water'
+    }
 }
